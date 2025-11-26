@@ -1,0 +1,308 @@
+
+.banner{
+
+  background-color: #f5f5f5;
+}
+.banner .wrapper{
+  display: flex;
+  position: relative;
+}
+
+
+.subnav{
+  width: 250px;
+  background-color: rgba(0, 0, 0,0.6);
+}
+.subnav li{
+  display: flex;
+  height: 50px;
+  padding: 14px 12px 14px 29px;
+  position: relative;
+}
+.subnav a,
+.subnav .iconfont{
+  color: #fff;
+  font-size: 14px;
+  line-height: 22px;
+}
+.subnav a{
+  margin-right: 5px;
+}
+.subnav h4{
+  font-weight: 500;
+  font-size: 16px;
+  margin-right: 14px;
+}
+.subnav .iconfont{
+  position: absolute;
+  top: 50%;
+  right: 12px;
+  transform: translateY(-50%);
+}
+
+
+.pic{
+  display: flex;
+  width: 990px;
+  overflow: hidden;
+}
+.pic img{
+  width: 990px;
+}
+
+
+.banner ol{
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.banner ol li{
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  margin-right: 8px;
+  margin-bottom: 16px;
+  position: relative;
+}
+.banner i{
+  display: block;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.6);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.active{
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.active i{
+  background-color: rgb(255, 255, 255);
+}
+
+
+.goods{
+  background-color: #fff;
+}
+.goods .title, .brand .title, .fresh .title{
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.goods .title{
+  height: 102px;
+  margin-top: 10px;
+
+}
+.title h3{
+  font-size: 30px;
+  line-height: 42px;
+  margin-right: 35px;
+}
+.title p,
+.title a,
+.title .iconfont{
+  color: #A1A1A1;
+}
+.title p{
+  position: relative;
+  bottom: -8px;
+}
+.title .all{
+  position: absolute;
+  right: 0;
+}
+.goods .title .iconfont{
+  margin-left: 10px;
+}
+
+.goods ul{
+  display: flex;
+  justify-content: space-between;
+}
+.goods ul li{
+  width: 304px;
+}
+.goods ul img{
+  height: 304px;
+}
+.goods .price{
+  height: 100px;
+}
+.bd .price{
+  background-color: #EEF9F4;
+}
+.goods .price p{
+  text-align: center;
+  font-size: 22px;
+  color: #AA2113;
+}
+.goods .price a{
+  display: block;
+  font-size: 20px;
+  padding: 17px 0 4px;
+}
+.recommend .price p{
+  font-size: 16px;
+  color: #A1A1A1;
+  padding-bottom: 6px;
+}
+.recommend{
+  margin-bottom: 60px;
+}
+
+
+.brand{
+  height: 468px;
+  background-color: #f1f1f1;
+}
+.brand .title{
+  height: 122px;
+
+}
+.title .jiantou{
+  position: absolute;
+  right: 0;
+  bottom: 15px;
+}
+
+.brand ul{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.fresh{
+  padding-top: 20px;
+}
+.fresh .title{
+  margin-top: 40px;
+  margin-bottom: 20px;
+  position: relative;
+}
+.fresh .title ul{
+  display: flex;
+  position: absolute;
+  right: 134px;
+}
+.fresh .title ul a{
+  display: block;
+  height: 22px;
+  line-height: 22px;
+  color: #333;
+  padding: 0 7px;
+  margin-right: 6px;
+}
+.fresh .title ul a:hover{
+  background-color: #5EB69C;
+  color: #fff;
+}
+.fresh .content{
+  display: flex;
+}
+.fresh .content .left{
+  width: 248px;
+  height: 610px;
+  margin-right: 24px;
+}
+.fresh .content .right ul{
+  display: flex;
+  width: 968px;
+  flex-wrap: wrap;
+}
+.fresh .content .right li{
+  width: 242px;
+  height: 305px;
+  padding: 0 26px;
+}
+.fresh .content .right img{
+  width: 190px;
+  height: 171px;
+  margin: 14.5px 0;
+}
+.fresh .content .right a{
+  display: block;
+  width: 192px;
+  line-height: 19px;
+}
+.fresh .content .right span{
+  font-size: 22px;
+  line-height: 45px;
+  color: #AF2F22;
+}
+.fresh .content .right i{
+  font-size: 16px;
+  margin-right: 4px;
+}
+
+
+.topic{
+  padding-top: 70px;
+}
+.topic .title{
+  margin: 30px 0;
+  position: relative;
+}
+.topic ul{
+  height: 395px;
+  display: flex;
+}
+.topic li img{
+  display: block;
+  width: 405px;
+  height: 288px;
+  margin-bottom: 23px;
+}
+.topic div{
+  position: relative;
+}
+.topic div span{
+  margin-left: 15px;
+  margin-right: 5px;
+  font-size: 14px;
+  line-height: 20px;
+}
+.topic div i{
+  font-size: 14px;
+}
+.topic div .iconfont{
+  font-size: 16px;
+  color: #888;
+}
+.topic div .iconfont:last-child{
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+
+ /* 通用重置：清除默认margin/padding，统一盒模型 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* 关键：边框、内边距不影响元素宽高 */
+}
+
+/* 基础排版：统一字体、颜色、行高，保证跨浏览器一致性 */
+body {
+  font: 16px/1.5 "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
+  color: #333; /* 主文本色 */
+  background-color: #fff; /* 页面背景色 */
+}
+
+/* 元素重置：统一列表、文本、表单、图片样式 */
+ul, ol { list-style: none; } /* 清除列表默认圆点/数字 */
+em, i { font-style: normal; } /* 斜体标签默认正常显示 */
+a { text-decoration: none; color: #333; } /* 清除链接下划线，统一颜色 */
+h1-h6 { font-weight: 400; } /* 标题默认不加粗，后续按需定制 */
+img { width: 100%; height: 100%; vertical-align: middle; } /* 图片自适应，消除底部空隙 */
+input { border: none; outline: none; color: #333; } /* 清除输入框默认边框与外轮廓 */
+
+/* 公共容器：固定宽度+水平居中，作为页面布局基准 */
+.wrapper { margin: 0 auto; width: 1240px; }
